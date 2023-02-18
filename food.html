@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>tunisian food</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="food1.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><img src="./logoTn.png"></a>
+
+            <nav class="navbar">
+                <a href="#home" class="active">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#reservation">reservation</a>
+               
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu"></i>
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </header>
+
+
+        <script type="text/javascript">
+            let menu = document.querySelector('#menu');
+            let navbar = document.querySelector('.navbar');
+
+            menu.onclick =()=> {
+                menu.classList.toggle('fa-times');
+                navbar.classList.toggle('active');
+            }
+        </script>
+
+        <div class="home" id="home">
+            <div class="home-slider">
+                <div class="wrapper">
+                    <div class="slide slide1">
+                        <div class="content">
+                           
+
+                            <h3>tunisian speciality</h3>
+                            
+                            
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+
+                    <div class="slide slide2">
+                        <div class="content">
+                            
+
+                            <h3>Menu of the day </h3>
+                            
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+
+                    <div class="slide slide3">
+                        <div class="content">
+                            
+
+                            <h3> open 7days/7days </h3>
+                            
+                           
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="welcome" id="about">
+            <h1 class="heading">WELCOME TO KOUL TOUNSI</h1>
+            <center><h3 class="sub-heading">~ it is about Quality ~</h3></center>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="harissa1.jpg">
+                    </div>
+
+                    <div class="content">
+                        <h3>special Ingredients</h3>
+                        <p>Unlike other North African cuisines, Tunisian food is quite spicy. A popular condiment and ingredient which is used extensively in Tunisian cooking, harissa</p>
+                        <a href="#" class="btn">read more</a>
+
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="couscous.jpg">
+                    </div>
+
+                    <div class="content">
+                        <h3>specialities</h3>
+                        <p>couscous , Meats , tajine , seafood</p>
+                        <a href="#" class="btn">read more</a>
+
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="image">
+                        <img src="baklawa.jpg">
+                    </div>
+
+                    <div class="content">
+                        <h3>Dishes</h3>
+                        <p>Asida , Baklawa , Fricasse , Mloukhia ..</p>
+                        <a href="#" class="btn">read more</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our-menu" id="menu">
+            <h1 class="heading">our food menu</h1>
+            <center><h3 class="sub-heading">~ see what we offer ~</h3></center>
+
+            <div class="menu-container">
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Main course</h2>
+                        <img src="menu.jpg">
+
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <h3> couscous</h3>
+                            <span class="dots"></span>
+                            <h3>20 dt</h3>
+
+                            <ul>
+                                <li><a href="#">chicken</a></li>
+                                <li><a href="#">Meat</a></li>
+                                <li><a href="#">osben</a></li>
+                                <li><a href="#">fish</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <h3> spaghetti</h3>
+                            <span class="dots"></span>
+                            <h3>15 dt</h3>
+
+                            <ul>
+                                <li><a href="#">chicken</a></li>
+                                <li><a href="#">Meat</a></li>
+                                <li><a href="#">fish</a></li>
+                            </ul>
+                        </div>
+                        <div class="item-menu">
+                            <h3> riz</h3>
+                            <span class="dots"></span>
+                            <h3>18 dt</h3>
+
+                            <ul>
+                                <li><a href="#">jerbi : vegetables & chicken</a></li>
+                                <li><a href="#">meat</a></li>
+                               
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Soups & salads</h2>
+                        <img class="picwall" src="menu.jpg">
+
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <h3> soups </h3>
+                            <span class="dots"></span>
+                            <h3>7 dt</h3>
+
+                            <ul>
+                                <li><a href="#">vegetables</a></li>
+                                <li><a href="#">Meat</a></li>
+                                
+                                <li><a href="#">fish</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <h3> salads</h3>
+                            <span class="dots"></span>
+                            <h3>6 dt</h3>
+
+                            <ul>
+                                <li><a href="#">Tunisian</a></li>
+                                <li><a href="#">kafteji</a></li>
+                                <li><a href="#">cesar</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Drinks</h2>
+                        <img src="menu.jpg">
+
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <h3> cold drinks</h3>
+                            <span class="dots"></span>
+                            <h3>4 dt</h3>
+
+                            <ul>
+                                <li><a href="#">Boga cidre</a></li>
+                                <li><a href="#">Fanta</a></li>
+                                <li><a href="#">cocktail</a></li>
+                                <li><a href="#">virgin mojito</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <h3> hot drinks</h3>
+                            <span class="dots"></span>
+                            <h3>5 dt</h3>
+
+                            <ul>
+                                <li><a href="#">hot chocolate</a></li>
+                                <li><a href="#">tea</a></li>
+                                <li><a href="#">coffe</a></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="item-name">
+                        <h2>Desserts</h2>
+                        <img src="menu.jpg">
+
+                    </div>
+
+                    <div class="item-body">
+                        <div class="item-menu">
+                            <h3> cakes</h3>
+                            <span class="dots"></span>
+                            <h3>7 dt</h3>
+
+                            <ul>
+                                <li><a href="#">strawberry cake</a></li>
+                                <li><a href="#">Macaroons cake</a></li>
+                                <li><a href="#">korean pancakes</a></li>
+                                <li><a href="#">nutella pancakes</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="item-menu">
+                            <h3> tunisian specialities</h3>
+                            <span class="dots"></span>
+                            <h3>8 dt</h3>
+
+                            <ul>
+                                <li><a href="#">bousa</a></li>
+                                <li><a href="#">asida</a></li>
+                                <li><a href="#">baklawa</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section.our-menu>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="reservation" id="reservation">
+            <div class="image">
+
+            </div>
+
+            <div class="form">
+                <h1 class="heading">book a table</h1>
+                <center><h3 class="sub-heading">~ check out our place ~</h3></center>
+
+                <form>
+                    <div class="form-holder">
+                        <div>
+                            <select>
+                                <option>1 people</option>
+                                <option>2 people</option>
+                                <option>3 people</option>
+                                <option>4 people</option>
+                            </select>
+                            <input type="text" name="" placeholder="time">
+                            <input type="text" name="" placeholder="phone">
+                        </div>
+
+                        <div>
+                            <input type="text" name="" placeholder="date">
+                            <input type="text" name="" placeholder="name">
+                            <input type="text" name="" placeholder="email">
+                        </div>
+                    </div>
+                    <center><a href="#" class="btn">Book now</a></center>
+                </form>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <section class="footer">
+            <img src="logoTn.png" class="logo">
+            <div class="container">
+                <div>
+                    <h3>ABOUT US</h3>
+                    <p>We are a five stars tunisian restaurent located in Tunis </p>
+                </div>
+                <div>
+                    <h3>Get news & offers</h3>
+                    <input type="email" name="" placeholder="enter your email">
+                    <ul class="fo1">
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li> 
+                    </ul>
+                </div>
+                <div>
+                    <h3>CONTACT US</h3>
+                    <span>Koul tounsi</span>
+                    <span>+216 98423161</span>
+                    <span>koulTounsi@gmail.com</span>
+                </div>
+            </div>
+
+            <p>&copy;2023 reserved by koulTounsi</p>
+
+
+        </section> 
+
+       
+        
+
+    </body>
+</html>
